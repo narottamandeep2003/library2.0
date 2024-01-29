@@ -9,7 +9,7 @@ import json
 from datetime import date
 from django.shortcuts import redirect
 # Create your views here.
-myclient = MongoClient("mongodb+srv://user:user@cluster.1jallsq.mongodb.net/library?retryWrites=true&w=majority")
+myclient = MongoClient("xyz")
 
 # user 
 mydb = myclient["UserInfo"]
